@@ -59,6 +59,7 @@ import links from './links.png';
 import mongoDB from './mongoDB.png';
 import stripe from './stripe.png'
 import cloudinary from './cloudinary.png';
+import cleark from './cleark.png'
 import postman from './postman.png';
 import udemy_certificate1 from './UC-7489a6e6-a32a-4489-92ae-ff3625b5d530.jpg';
 import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
@@ -71,6 +72,7 @@ export const assets = {
     logo,
     x_img,
     learnig_app,
+    cleark,
     salesforce,
     api_img,
     pwjava_img,
@@ -254,7 +256,7 @@ export const projectData = [
   {
     name: "Online Learning",
     title: "Tech Stack",
-    techStack: [language_img4, language_img5, language_img3,cloudinary,mongoDB,stripe],
+    techStack: [language_img4, language_img5, language_img3,cloudinary,mongoDB,stripe,cleark],
     image: learnig_app,
     github: github_img,
     github_src: "https://github.com/rohit-raj7/Online-Learning",

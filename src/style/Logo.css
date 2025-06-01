@@ -1,0 +1,30 @@
+
+  .container {
+    position: relative;
+  }
+  
+  .droplet {
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    background-color: transparent; 
+  }
+
+
+
+
+
+  @keyframes border-draw {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+    100% {
+      stroke-dasharray: 100 0;
+    }
+  }
+  
+  .rounding-border {
+    stroke-dasharray: 0 100;
+    animation: border-draw 1.2s linear 1; 
+    animation-fill-mode: forwards; 
+  }

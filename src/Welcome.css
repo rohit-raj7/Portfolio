@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:600');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background: none; /* Remove any background */
+}
+
+.rotating-text .word {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.rotating-text .word.visible {
+  opacity: 1;
+}

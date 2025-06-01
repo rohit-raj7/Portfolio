@@ -254,12 +254,12 @@ export const projectData = [
     name: "Online Learning",
     title: "Tech Stack",
     techStack: [code_img6, language_img6, language_img3],
-    image: Auto_fill_img,
+    image: learnig_app,
     github: github_img,
-    github_src: "https://github.com/rohit-raj7/Fill-Form-Auto",
+    github_src: "https://github.com/rohit-raj7/Online-Learning",
     link: link_img,
     link_src: "https://online-learning-iota.vercel.app/",
-    text: "Automatically fill forms with one click, saving time and improving efficiency and accuracy...",
+    text: "Create. Enroll. Learn. Educators upload courses, and students join using Stripe to learn anything, anytime.",
   },
   {
     name: "Autofiller",
@@ -316,15 +316,5 @@ export const projectData = [
     link_src: "https://rohit-raj.netlify.app/",
     text: "Create a personal portfolio using React: showcase projects, skills, responsive design, and interactive user interface...",
   },
-    {
-    name: "Wait for Update...",
-    title: "Tech Stack",
-    techStack: [language_img3,language_img4, language_img5, language_img6,api_img],
-    image: PortfolioLogo,
-    github: github_img,
-   github_src: "https://github.com/rohit-raj7/",
-    link: link_img,
-    link_src: "https://netlify.app/",
-    text: "Update will follow shortly...",
-  },
+    
 ];

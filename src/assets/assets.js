@@ -68,6 +68,7 @@ import Internship_LearningX from './Internship_LearningX.jpg';
 import Rohit_Raj_AICTE_Certificate from './Rohit Raj_AICTE_Certificate.jpg';
 import learnig_app from './learnig_app.png'
 
+
 export const assets = {
     logo,
     x_img,

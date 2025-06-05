@@ -11,10 +11,10 @@ const PrivacyPolicy = () => {
       <hr />
       <br />
       <h1 className="text-3xl font-bold text-center mb-8">Privacy Policy</h1>
-      <p className="text-sm text-center mb-4"><strong>Last Updated: 10/05/2025</strong></p>
+      <p className="text-sm text-center mb-4"><strong>Last Updated: [Date]</strong></p>
 
       <p className="mb-6">
-        Welcome to my portfolio website <a className='text-blue-300' href="https://rohit-raj.netlify.app/">Portfolio</a>. Your privacy is of utmost importance to me. This Privacy Policy aims to inform you about how I collect, use, protect, and disclose information obtained from visitors to my Website.
+        Welcome to my portfolio website ("Website"). Your privacy is of utmost importance to me. This Privacy Policy aims to inform you about how I collect, use, protect, and disclose information obtained from visitors to my Website.
       </p>
 
       <section className="mb-6">

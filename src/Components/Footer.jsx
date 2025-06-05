@@ -49,10 +49,7 @@ function Footer() {
       </div>
 
       <div className='border-t border-gray-700 py-4 mt-10 text-center text-gray-500'>
-        
-        Copyright  {new Date().getFullYear()}  &copy; Rohit Raj. All rights reserved.
-       
-
+        Copyright 2024 © Rohit Raj. All Rights Reserved.
       </div>
     </div>
   );

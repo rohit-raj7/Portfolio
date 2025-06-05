@@ -7,7 +7,7 @@ import { LayoutGroup, motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div id="Skills" className='ml-15 sm:ml-5 w-full sm:w-3/4 lg:w-1/2 px-4'>
+    <div id="Skills" className='ml-5 sm:ml-10 w-full sm:w-3/4 lg:w-1/2 px-4'>
       <h1 className="text-2xl sm:text-4xl font-bold mb-4 text-center mb-9">
         Skills
       </h1>

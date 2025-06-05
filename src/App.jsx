@@ -13,11 +13,10 @@ import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 import './style/Logo.css';
-import PrivacyPolicy from './Components/PrivacyPolicy';
-import ForgotPassword from '../../src/Login-Signup/ForgotPassword';
-import Login from '../../src/Login-Signup/Login';
-import Signup from '../../src/Login-Signup/Signup';
-import axios from "axios";
+import PrivacyPolicy from './Components/PrivacyPolicy.jsx';
+import ForgotPassword from '../../src/Login-Signup/ForgotPassword.jsx';
+import Login from '../../src/Login-Signup/Login.jsx';
+import Signup from '../../src/Login-Signup/Signup.jsx'; 
 import Dashboard from './Dashboard.jsx'
 
 

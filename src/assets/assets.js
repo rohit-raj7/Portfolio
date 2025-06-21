@@ -262,7 +262,7 @@ export const projectData = [
     github: github_img,
     github_src: "https://github.com/rohit-raj7/Online-Learning",
     link: link_img,
-    link_src: "https://online-learning-iota.vercel.app/",
+    link_src: "https://online-learning-yet.vercel.app/",
     text: "Create. Enroll. Learn. Educators upload courses, and students join using Stripe to learn anything, anytime.",
   },
   {

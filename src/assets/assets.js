@@ -257,12 +257,12 @@ export const projectData = [
   {
     name: "Online Learning",
     title: "Tech Stack",
-    techStack: [language_img4, language_img5, language_img3,cloudinary,mongoDB,stripe,cleark],
+    techStack: [language_img4, language_img5, language_img3,cloudinary,mongoDB,stripe],
     image: learnig_app,
     github: github_img,
-    github_src: "https://github.com/rohit-raj7/Online-Learning",
+    github_src: "https://github.com/rohit-raj7/Learning-Now",
     link: link_img,
-    link_src: "https://online-learning-yet.vercel.app/",
+    link_src: "https://learningnow.online/",
     text: "Create. Enroll. Learn. Educators upload courses, and students join using Stripe to learn anything, anytime.",
   },
   {

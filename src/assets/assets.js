@@ -63,6 +63,9 @@ import cleark from './cleark.png'
 import postman from './postman.png';
 import udemy_certificate1 from './UC-7489a6e6-a32a-4489-92ae-ff3625b5d530.jpg';
 import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
+import nodejs from './nodejs.png';
+import jwt from './jwt.png';
+
 
 import Internship_LearningX from './Internship_LearningX.jpg';
 import Rohit_Raj_AICTE_Certificate from './Rohit Raj_AICTE_Certificate.jpg';
@@ -71,6 +74,8 @@ import learnig_app from './learnig_app.png'
 
 export const assets = {
     logo,
+    nodejs,
+    jwt,
     x_img,
     learnig_app,
     cleark,
@@ -145,6 +150,7 @@ export const skillData = [
       { logo: language_img4, title: "React" },
       { logo: language_img5, title: "Tailwind CSS" },
       { logo: language_img7, title: "Bootstrap" },
+        { logo: nodejs, title: "Node.Js" },
     ],
   },
   {
@@ -159,6 +165,7 @@ export const skillData = [
       { logo: language_img11, title: "Mysql" },
       { logo: api_img, title: "Api" },
       { logo: postman, title: "Postman" },
+      { logo: jwt, title: "JWT Web Token" },
       { logo: cloudinary, title: "Cloudinary" },
     ],
   },
@@ -257,7 +264,7 @@ export const projectData = [
   {
     name: "Online Learning",
     title: "Tech Stack",
-    techStack: [language_img4, language_img5, language_img3,cloudinary,mongoDB,stripe],
+    techStack: [language_img4, language_img5, language_img3,cloudinary,nodejs,jwt,mongoDB,stripe],
     image: learnig_app,
     github: github_img,
     github_src: "https://github.com/rohit-raj7/Learning-Now",

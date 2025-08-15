@@ -262,7 +262,7 @@ export const projectsData = [
 
 export const projectData = [
   {
-    name: "EdTech (LearningNow)",
+    name: "EdTech (Learning Now)",
     title: "Tech Stack",
     techStack: [language_img4, language_img5, language_img3,cloudinary,nodejs,jwt,mongoDB,stripe],
     image: learnig_app,

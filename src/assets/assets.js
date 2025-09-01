@@ -66,6 +66,8 @@ import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
 import nodejs from './nodejs.png';
 import jwt from './jwt.png';
 
+import interview_app from './interview_app.png';
+
 
 import Internship_LearningX from './Internship_LearningX.jpg';
 import Rohit_Raj_AICTE_Certificate from './Rohit Raj_AICTE_Certificate.jpg';
@@ -77,6 +79,7 @@ export const assets = {
     nodejs,
     jwt,
     x_img,
+    interview_app,
     learnig_app,
     cleark,
     salesforce,
@@ -261,6 +264,17 @@ export const projectsData = [
 ];
 
 export const projectData = [
+     {
+    name: "Ai Interview (Interview Now)",
+    title: "Tech Stack",
+    techStack: [language_img4, language_img5, language_img3,nodejs,jwt,mongoDB,],
+    image: interview_app,
+    github: github_img,
+    github_src: "https://github.com/rohit-raj7/Interview-Now",
+    link: link_img,
+    link_src: "https://ai-interviewnow.vercel.app/",
+    text: "An end-to-end AI interview platform where candidates can upload resumes, select the type of interview (HR, Manager, Technical), and interact with an AI video/voice interviewer.",
+  },
   {
     name: "EdTech (Learning Now)",
     title: "Tech Stack",

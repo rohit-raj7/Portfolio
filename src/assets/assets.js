@@ -71,7 +71,7 @@ import interview_app from './interview_app.png';
 
 import Internship_LearningX from './Internship_LearningX.jpg';
 import Rohit_Raj_AICTE_Certificate from './Rohit Raj_AICTE_Certificate.jpg';
-import learnig_app from './learingNow.png'
+import learnig_app from './learingNow.jpg'
 
 
 export const assets = {
@@ -265,7 +265,7 @@ export const projectsData = [
 
 export const projectData = [
      {
-    name: "Ai Interview (Interview Now)",
+    name: "AI-Powered Interview System",
     title: "Tech Stack",
     techStack: [language_img4, language_img5, language_img3,nodejs,jwt,mongoDB,],
     image: interview_app,
@@ -308,17 +308,7 @@ export const projectData = [
     link_src: "https://queue-visulation.netlify.app/",
     text: "The N-Queens Visualizer demonstrates step-by-step solutions to the N-Queens problem with clear visual representation...",
   },
-  {
-    name: "Task Management",
-    title: "Tech Stack",
-    techStack: [language_img4, language_img5, language_img6],
-    image: Task_management_img,
-    github: github_img,
-    github_src: "https://github.com/rohit-raj7/Task-Management-Dashboard",
-    link: link_img,
-    link_src: "https://rohit-raj7.github.io/task-anagement/",
-    text: "The Task Management project helps users organize tasks efficiently...",
-  },
+  
   {
     name: "Weather App",
     title: "Tech Stack",

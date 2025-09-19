@@ -65,6 +65,7 @@ import udemy_certificate1 from './UC-7489a6e6-a32a-4489-92ae-ff3625b5d530.jpg';
 import udemy_certificate2 from './UC-908e4c20-e492-45d7-8609-58a5b9463f10.jpg';
 import nodejs from './nodejs.png';
 import jwt from './jwt.png';
+import Certificate_Oracle from './Certificate_Oracle.png'
 
 import interview_app from './interview_app.png';
 
@@ -82,6 +83,7 @@ export const assets = {
     interview_app,
     learnig_app,
     cleark,
+    Certificate_Oracle,
     salesforce,
     api_img,
     pwjava_img,
@@ -205,6 +207,13 @@ export const ExperienceData = [
 ];
 
 export const projectsData = [  
+
+    {
+    title: "Oracle Cloud Infrastructure 2025",
+    links_img: link_img,
+    src: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=8836DF4CC595F443F340A7797D59F5F99C13A1E77E8C211AEBDC3CF0E7CADE30",
+    image: Certificate_Oracle
+  },
   {
     title: "JAVA + DSA",
     links_img: link_img,

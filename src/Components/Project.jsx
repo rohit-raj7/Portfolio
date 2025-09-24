@@ -74,7 +74,7 @@ function Projects() {
       id="projects"
     >
 
-      <div className="relative max-w-7xl mx-auto">
+      <div  id="Project" className="relative max-w-7xl mx-auto">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

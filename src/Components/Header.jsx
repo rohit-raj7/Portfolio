@@ -4,8 +4,7 @@ import { LayoutGroup, motion } from "framer-motion";
 import Social from './Social';
 import { assets } from "../assets/assets";
  
-import './header.css' 
-import { LiveUserCount } from '../UserCount/LiveUserCount';
+import './header.css'  
 function Header() {
   return (
     <div
@@ -33,16 +32,13 @@ function Header() {
           <a
             href="#Contact"
             className="bg-blue-500 px-6 py-2 rounded text-sm sm:px-8 sm:py-3 sm:text-base"
-              // className="bg-pink-500 px-6 py-2 rounded text-sm sm:px-8 sm:py-3 sm:text-base"
+              
           >
             Contact Us
           </a>
 
           </div>
-        
-  {/* <div className='gap-1 sm:ml-6'>
-    <LiveUserCount />
-  </div>  */}
+         
           </div> 
          
         
@@ -64,14 +60,10 @@ function Header() {
         </div>
 
       </motion.div>
-
-      <div className="hidden">
-        {/* <Logo /> */}
-      </div>
+ 
     </div>
   );
 }
 
 export default Header;
-
-
+  

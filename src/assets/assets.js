@@ -74,10 +74,13 @@ import Internship_LearningX from './Internship_LearningX.jpg';
 import Rohit_Raj_AICTE_Certificate from './Rohit Raj_AICTE_Certificate.jpg';
 import learnig_app from './learingNow.jpg'
 
+import leetcode from './leetcode.png'
+import google from './google.webp'
+
 
 export const assets = {
     logo,
-    nodejs,
+    nodejs, leetcode ,google,
     jwt,
     x_img,
     interview_app,
@@ -192,18 +195,19 @@ export const ExperienceData = [
     position: "Frontend Developer Internship",
     description: "As a frontend intern, I worked with JavaScript and React to build interactive websites. I collaborated with APIs to fetch, manipulate, and display data, optimizing the user experience.",
     img: learningx,
-    link: links,
-    link_src: "https://drive.google.com/file/d/1_k43ygGRi9G329K2MR4FAgiAoAzyYG8J/view?usp=sharing",
+    link: links, 
+    link_src: "https://www.google.com", 
   },
   {
-    year: "2025",
-    title: "Upcoming",
-    position: "XYZ",
-    description: "Developed scalable web solutions for millions of users worldwide.",
-    img: salesforce,
-    link: links,
-    link_src: "www.yout.coe",
-  },
+  year: "Sep 2025 - Present",
+  title: "Google",
+  position: "Google Student Ambassador",
+  description: "Representing Google on campus by organizing events, promoting Google technologies, and engaging with students to build strong technical communities.",
+  img: google, // Replace with correct Google-related image/logo
+  link: links,     // Ensure this is a valid link object/URL
+  link_src: "https://www.google.com", // Use an official/valid source link
+}
+
 ];
 
 export const projectsData = [  

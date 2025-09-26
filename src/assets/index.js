@@ -47,9 +47,11 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import leetcode from './leetcode.png'
 
 export {
   quotes,
+  leetcode,
   robot,
   send,
   shield,

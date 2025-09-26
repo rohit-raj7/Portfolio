@@ -3,6 +3,7 @@
 
  import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { assets } from '../assets/assets';
 
 function About() {
   const [inView, setInView] = useState(false);
@@ -30,7 +31,14 @@ function About() {
   const statItems = [
     { label: "Years of Experience", value: "1+", icon: "🚀" },
     { label: "Projects Completed", value: "4+", link: "#Project", icon: "💼" },
-    { label: "LeetCode Solutions", value: "300+", link: "https://leetcode.com/u/rohit-raj7/", icon: "⚡" },
+    { label: "LeetCode Solutions", value: "350+", icon: (
+      <img
+  src={assets.leetcode}
+  alt="LeetCode"
+  className="w-6 h-6"
+/>
+
+    ), },
     { label: "Active Projects", value: "2", icon: "🔧" }
   ];
 

@@ -218,11 +218,7 @@ const Timeline = () => {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full border border-purple-500/30">
-            <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full animate-pulse" />
-            <span className="text-gray-300 text-sm font-medium">Journey continues...</span>
-            <div className="w-2 h-2 bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full animate-pulse delay-500" />
-          </div>
+         
         </motion.div>
       </div>
     </div>
